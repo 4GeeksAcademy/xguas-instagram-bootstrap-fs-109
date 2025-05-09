@@ -21,7 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav align-items-center">
+                <ul class="navbar-nav align-items-center navbarNavDropdown-start">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">
                             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -52,22 +52,22 @@
                               </div>
                         </a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="bi bi-gear-fill"></i>
-                          </button>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Profile</a></li>
-                            <li><a class="dropdown-item" href="#">Accesibility</a></li>
-                            <li><a class="dropdown-item" href="#">Privay and Data</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
-                          </ul>
-                      </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                        <i class="bi bi-gear-fill"></i>
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-lg-end">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privay and Data</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                      </ul>
+                </div>
+              </div>
+            </nav>
     <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
